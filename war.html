@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>War, what is it good for?</title>
+        <link rel="stylesheet" href="war.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Fascinate&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header"><h1>War: The Card Game</h1></div>
+        <div class="container">
+            <h2>Opponent's card</h2>
+            <div class="card-container">
+                <div class="topnum-container">
+                    <p id="computer-card-el" class=""></p>
+                </div>
+                <div class="suit-container">
+                    <p id="computer-suit-el" class=""></p>
+                </div>
+                <div class="bottomnum-container">
+                    <p id="computer-card-el-bottom" class=""></p>
+                </div>
+            </div>
+            <hr />
+            <h2>Your card</h2>
+            <div class="card-container">
+                <div class="topnum-container">
+                    <p id="player-card-el" class=""></p>
+                </div>
+                <div class="suit-container">
+                    <p id="player-suit-el" class=""></p>
+                </div>
+                <div class="bottomnum-container">
+                    <p id="player-card-el-bottom" class=""></p>
+                </div>
+            </div>
+            <p id="result-text-el">&nbsp;</p>
+            <button id="play-button" onclick="play()">PLAY</button>
+        </div>
+        <script src="war.js"></script>
+    </body>
+</html>

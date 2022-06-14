@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: #0A1931;
+    font-family: 'Crete Round', serif;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #FFC947;
+    font-family: 'Fascinate', cursive;
+    font-size: 3em;
+    margin: 0;
+}
+
+button {
+    margin: 18px;
+    padding: 8px;
+    font-family: 'Fascinate', cursive;
+    font-size: 2em;
+    font-style: bold;
+    border: 2px solid black;
+    background-color: #185ADB;
+    color: #FFC947;
+    border-radius: 5px;
+}
+
+/* classes */
+
+hr {
+    border: 0;
+    height: 2px;
+    background: black;
+    width: 60%;
+}
+
+.header {
+    width: 50%;
+    min-width: 550px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #185ADB;
+    border-radius: 5px;
+}
+
+.container {
+    width: 50%;
+    min-width: 550px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #EFEFEF;
+    border-radius: 5px;
+}
+
+.card-container {
+    margin: 10px auto 25px auto;
+    padding: 0px 0px;
+    width: 160px;
+    height: 250px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 12px;
+}
+
+.topnum-container {
+    width: 100%;
+    height: 10%;
+    margin: 0;
+    padding: 2px 0px 0px 8px;
+    text-align: left;
+}
+
+.suit-container {
+    width: 100%;
+    height: 75%;
+    line-height: 200px;
+    margin: 0;
+    padding: auto;
+}
+
+.bottomnum-container {
+    width: 100%;
+    height: 15%;
+    margin: 0;
+    text-align: left;
+    padding-left: 6px;
+    transform: rotate(180deg);
+}
+
+.red {
+    color: red;
+}
+
+.black {
+    color: black;
+}
+
+/* ids */
+
+#computer-card-el, #player-card-el, #computer-card-el-bottom, #player-card-el-bottom {
+    font-size: 1.5em;
+}
+
+#computer-suit-el, #player-suit-el {
+    font-size: 3em;
+}
+
+#result-text-el {
+    font-size: 1.2em;
+}
+
+/* @media */
+
+@media (max-width: 650px) {
+    .header {
+        width: 90%;
+        min-width: 200px;
+    }
+
+    .container {
+        width: 90%; 
+        min-width: 200px;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+}
+
+@media (max-width: 550px) {
+    h1 {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 450px) {
+    h1 {
+        font-size: 1.5em;
+    }
+}
